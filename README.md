@@ -21,7 +21,7 @@
 - Allow users to do filtering, paginating, sorting for their data
 - Allow users to send emails by calling the SendGrid API.
 ---
-### ***Use POSTMAN to interact with DB:***
+### ***Use POSTMAN to interact with server:***
 - Link of server https://tom-task-manager-api.herokuapp.com/, which is the {{url}} for postman
 - By passing raw JSON data in the body session to the server. (For files, pass form-data)
 - Create user: POST: https://tom-task-manager-api.herokuapp.com/users (fields needed: name, email, password)
