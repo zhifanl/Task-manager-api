@@ -10,6 +10,7 @@
 - Passwords stored in database are all encrypted (hashed)
 - Deployed on cloud server and used git to track the update of the project
 - SendGrid API is integrated to send email to users
+- Jest is used as automated testing framework
 - Server deployed on Heroku
 ---
 ### ***key functionalities:***
@@ -37,3 +38,22 @@
 - Upload a file: POST: https://tom-task-manager-api.herokuapp.com/upload
 - Upload an avatar for current user: POST: https://tom-task-manager-api.herokuapp.com/users/me/avatar
 - Delete the avatar for current user: DELETE: https://tom-task-manager-api.herokuapp.com/users/me/avatar
+
+
+***To connect to local mongodb database***
+run:
+```
+{{location of mongodb folder}}/bin/mongod --dbpath={{location of mongodb database}}
+```
+***To install package.json dependencies***
+```
+npm install
+```
+then run the following command to start dev mode
+```
+npm run dev
+```
+test mode:
+```
+npm run test
+```
